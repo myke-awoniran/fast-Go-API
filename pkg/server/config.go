@@ -2,13 +2,12 @@ package server
 
 import (
 	"fmt"
+	"github.com/spf13/viper"
 	"log"
 	"math"
 	"os"
 	"strings"
 	"time"
-
-	"github.com/spf13/viper"
 )
 
 // Config Variable

@@ -2,14 +2,12 @@ package store
 
 import (
 	"errors"
+	"github.com/dimaskiddo/codebase-go-rest/pkg/log"
+	"github.com/dimaskiddo/codebase-go-rest/pkg/server"
+	minio "github.com/minio/minio-go"
 	"mime/multipart"
 	"strconv"
 	"strings"
-
-	minio "github.com/minio/minio-go"
-
-	"github.com/dimaskiddo/codebase-go-rest/pkg/log"
-	"github.com/dimaskiddo/codebase-go-rest/pkg/server"
 )
 
 // StoreS3 Configuration Struct

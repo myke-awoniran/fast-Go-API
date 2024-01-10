@@ -1,12 +1,11 @@
 package internal
 
 import (
-	"github.com/dimaskiddo/codebase-go-rest/pkg/auth"
-	"github.com/dimaskiddo/codebase-go-rest/pkg/router"
-
 	"github.com/dimaskiddo/codebase-go-rest/internal/index"
 	"github.com/dimaskiddo/codebase-go-rest/internal/uploads"
 	"github.com/dimaskiddo/codebase-go-rest/internal/users"
+	"github.com/dimaskiddo/codebase-go-rest/pkg/auth"
+	"github.com/dimaskiddo/codebase-go-rest/pkg/router"
 )
 
 // LoadRoutes to Load Routes to Router
